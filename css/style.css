@@ -1,0 +1,20 @@
+.ecommerce-bg-info{
+    background-color:#FEEAE9;
+}
+.categories-bg1{
+    background-color: rgb(255, 201, 51);
+}
+.categories-bg2{
+    background-color: rgba(255, 88, 155, 0.769);
+}
+.categories-bg3{
+    background-color: rgba(66, 138, 255, 0.712);
+}
+.ecommerce-button{
+    color: white;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    Width:168px; 
+    Height:52px;
+    border-radius: 6px;
+}

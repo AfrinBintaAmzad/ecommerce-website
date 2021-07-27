@@ -8,6 +8,8 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6c8b33809f.js" crossorigin="anonymous"></script>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header start -->
@@ -26,13 +28,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#bagpack">Bagpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">subscribe</a>
+                    <a class="nav-link" href="#subscribe">subscribe</a>
                   </li>
                   
                 </ul>
@@ -43,17 +45,17 @@
               </div>
             </div>
           </nav>
-          <!-- images slider -->
+          <!-- images slider carousel-->
           <section class="container pt-5 mt-5"> 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active  p-5 ">
-                  <div class="row bg-info bg-gradient d-flex align-items-center">
+                  <div class="row ecommerce-bg-info bg-gradient d-flex align-items-center">
                     <div class="col-lg-7">
                       <h1>Cool Dude Headphone</h1>
                       <p>This is the best headphone in the world people who just want to waste time infront of this funcky world</p>
                       <h1>$420</h1>
-                      <button class="btn btn-warning">buy Now</button>
+                      <button class="ecommerce-button">buy Now</button>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -61,12 +63,12 @@
                   </div>
                 </div>
                 <div class="carousel-item p-5" >
-                  <div class="row bg-info bg-gradient d-flex align-items-center">
+                  <div class="row ecommerce-bg-info bg-gradient d-flex align-items-center">
                     <div class="col-lg-7">
                       <h1>Cool Dude Headphone</h1>
                       <p>This is the best headphone in the world people who just want to waste time infront of this funcky world</p>
                       <h1>$420</h1>
-                      <button class="btn btn-warning">buy Now</button>
+                      <button class="ecommerce-button">buy Now</button>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -74,12 +76,12 @@
                   </div>
                   </div>
                 <div class="carousel-item p-5 ">
-                  <div class="row bg-info bg-gradient d-flex align-items-center">
+                  <div class="row ecommerce-bg-info bg-gradient d-flex align-items-center">
                     <div class="col-lg-7">
                       <h1>Cool Dude Headphone</h1>
                       <p>This is the best headphone in the world people who just want to waste time infront of this funcky world</p>
                       <h1>$420</h1>
-                      <button class="btn btn-warning">buy Now</button>
+                      <button class="ecommerce-button">buy Now</button>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -96,23 +98,23 @@
     <main>
       <!-- catagories -->
         <section>
-          <div class="container my-5">
+          <div class="container my-5 border-0" id="shoes">
             <div class="row g-4">
-              <div class="col-lg-4 col-md-6">
-                <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+              <div class="col-lg-4 col-md-6 ">
+                <div class="p-3 border categories-bg1 d-flex align-items-center justify-content-between rounded-3">
                   <h1 class="text-white">Bags</h1>
                   <img class="" height="68.21" width="80"  src="images/categories/bag.png" alt="">
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
-                <div class="p-3 border bg-danger d-flex align-items-center justify-content-between rounded-3">
+                <div class="p-3 border categories-bg2 d-flex align-items-center justify-content-between rounded-3">
                   <h1 class="text-white ">Shoes</h1>
                   <img class="" height="68.21" width="80" src="images/categories/shoes.png" alt="">
                 </div>
 
               </div>
               <div class="col-lg-4 col-md-6">
-                <div class="p-3 border bg-info d-flex align-items-center justify-content-between rounded-3">
+                <div class="p-3 border categories-bg3  d-flex align-items-center justify-content-between rounded-3">
                   <h1 class="text-white ">watch</h1>
                   <img height="68.21" width="80"  src="images/categories/watch.png" alt="">
                 </div>
@@ -135,7 +137,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3"">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -148,7 +150,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3"">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -161,7 +163,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -169,7 +171,7 @@
         </section>
 
         <!-- Bag Section -->
-        <section class="container my-5">
+        <section class="container my-5" id="bagpack">
           <h2>Bag-Pack</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -181,7 +183,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3"">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -194,7 +196,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3"">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -207,7 +209,7 @@
                   <h2>$1289</h2>
                 </div>
                 <div class="m-3">
-                  <button class="btn btn-warning">Buy Now</button>
+                  <button class="ecommerce-button">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -215,20 +217,20 @@
         </section>
 
        <!-- Subscribe -->
-       <section style="height: 300px;" class="container bg-danger shadow-lg d-flex justify-content-center mb-5 align-items-center rounded-3">
+       <section style="height: 300px;" class="container ecommerce-bg-info shadow-lg d-flex justify-content-center mb-5 align-items-center rounded-3" id="subscribe">
         <div>
-          <h1 class="text-white" >LET'S STAY IN TOUCH</h1>
-          <p class="text-white">Get updates on sales specials and more</p>
-          <input style="width: 300px;" class="border-0 rounded-2" type="text" placeholder="Enter Your Email">
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales specials and more</p>
+          <input style="width: 300px;" class="border-0 rounded-2 form-control" type="text" placeholder="Enter Your Email">
           <br>
-          <div class="btn btn btn-warning text-white text-center mt-1">SUBMIT</div>
+        <div  class="btn ecommerce-button text-white mt-1">SUBMIT</div>
         </div>
        </section>
     </main>
 
     <!-- footer start -->
-    <footer class="mt-5">
-      <p class="d-flex justify-content-center"><small>Copyright © 2021 ecommerceweby.com</small></p>
+    <footer class="mt-5 text-center">
+      <p><small>Copyright © 2021 ecommerceweby.com</small></p>
     </footer>
 
 
